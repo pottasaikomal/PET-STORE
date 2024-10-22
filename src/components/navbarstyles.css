@@ -1,0 +1,21 @@
+nav {
+    background-color: #0a240a; /* Green background for the nav bar */
+    padding: 15px; /* Space inside the nav bar */
+}
+
+nav a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 14px 20px; /* Space around links */
+    margin: 0 10px; /* Space between links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+nav a.active {
+    background-color: #3e8e41; /* Darker green for active link */
+}
